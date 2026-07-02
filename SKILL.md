@@ -1,9 +1,9 @@
 ---
 name: private-equity
-description:
+description: |
   股权投资技能套件：审条款、尽调清单、投决备忘录、测收益、筛项目、退出分析。
   审条款: 帮我看下这个TS, 帮我审下SPA条款, term sheet, 审TS, 审SPA; 尽调清单: 尽调清单, due diligence, DD checklist; 投决备忘录: 帮我写投决纪要, 帮我出IC Memo, 投决备忘录, 投委会; 测收益: 帮我算下IRR, 帮我测下回报率, MOIC, DPI, 算IRR; 筛项目: 筛项目, deal sourcing, 项目初筛; 退出分析: 退出分析, 退出路径, IPO退出。
-version: "1.0.0"
+version: "1.0.1"
 author: "智慧半岛"
 ---
 
@@ -192,11 +192,3 @@ author: "智慧半岛"
 - **预估轮次**：
 - **协同技能**：（如需跨包协作，列出）
 ```
-
-## 变更日志
-
-### v1.0.1 (2026-06-19)
-- 对齐 description 子技能名与路由表名称
-- 压缩路由表说明列至40字以内
-- 新增跨技能协同指引章节
-- 删除冗余英文 description 行
